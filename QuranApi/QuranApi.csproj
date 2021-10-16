@@ -49,6 +49,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="content\" />
+    <Folder Include=".well-known\" />
     <Folder Include="sound\" />
   </ItemGroup>
 

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using QuranApi.DAO;
 using QuranApi.DTO;
@@ -18,16 +19,19 @@ namespace QuranApi.Controllers
     public class DataController : ControllerBase
     {
         private IHostingEnvironment _env;
-        
+        private IConfiguration _configuration;
+
         //TODO TO AppSettings
-        private QuranDAO quranDAO = new QuranDAO("Server=mysql95.1gb.ru,3306;Database=gb_qrnapidev;Uid=gb_qrnapidev;Pwd=STx-Qz6tctVY");
+        private QuranDAO quranDAO;
 
         private readonly ILogger<DataController> _logger;
-
-        public DataController(IHostingEnvironment env, ILogger<DataController> logger)
+        //W
+        public DataController(IHostingEnvironment env, ILogger<DataController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _env = env;
+            _configuration = configuration;
+            quranDAO  = new QuranDAO(_configuration.GetConnectionString("DatabaseConnection"));
         }
 
         [HttpGet]
@@ -84,8 +88,7 @@ namespace QuranApi.Controllers
             var fileContent = System.IO.File.ReadAllText(templatePath);
             var text_content = new StringBuilder();
             text_content.Append("<div class=\"page\">");
-            int line = 0, position = 0;
-            string prevType = "";
+            int line = 0;
             int lastSura = listPrev != null ? listPrev.LastOrDefault().sura_number : 0;
             var ayats = new List<string>();
             foreach (var iter in list) 

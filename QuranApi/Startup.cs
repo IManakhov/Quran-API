@@ -106,6 +106,12 @@ namespace QuranApi
             });
             app.UseStaticFiles(new StaticFileOptions
             {
+                FileProvider = new PhysicalFileProvider(
+                Path.Combine(env.ContentRootPath, "Content")),
+                RequestPath = "/content"
+            });
+            app.UseStaticFiles(new StaticFileOptions
+            {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @".well-known")),
                 RequestPath = new PathString("/.well-known"),
                 ServeUnknownFileTypes = true // serve extensionless file

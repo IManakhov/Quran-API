@@ -1,7 +1,6 @@
 ﻿using Dapper;
 using MySql.Data.MySqlClient;
 using QuranApi.DTO;
-using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
