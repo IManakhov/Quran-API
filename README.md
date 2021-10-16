@@ -13,6 +13,9 @@ This project are made to help for anothers to work with Quran. Tags: _#Quran#Qur
 - Get html page of Quran page with correct markup https://quran-api.shkolaproroka.ru/data/pagehtml/1
 - Get html pages splitted by ayat of Quran page with correct markup https://quran-api.shkolaproroka.ru/data/pagehtml/1/byayats
 
+### How to lunch app
+--------
+This is ASP .NET Core application based on Web API. Database - MySQL. Dump you can found at `./DataBase/quran_api.zip`
 ### Features that need to do
 --------
 - [ ] Cache all pages and pages splitted by ayats to content page. Now it's generation on every request
