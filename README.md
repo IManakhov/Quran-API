@@ -15,5 +15,4 @@ This project are made to help for anothers to work with Quran. #Quran#QuranAPI#Q
 
 ### Features that need to do
 --------
-- [ ] Connection string to config file
 - [ ] Cache all pages and pages splitted by ayats to content page. Now it's generation on every request
