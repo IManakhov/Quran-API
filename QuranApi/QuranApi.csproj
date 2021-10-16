@@ -10,15 +10,2439 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="fonts\Arial_8.woff" />
-    <None Remove="fonts\Arial_8_1.woff" />
+
+
+    <None Remove="fonts\QCF_BSML.TTF" />
+    <None Remove="fonts\QCF_P001.TTF" />
+    <None Remove="fonts\QCF_P002.TTF" />
+    <None Remove="fonts\QCF_P003.TTF" />
+    <None Remove="fonts\QCF_P004.TTF" />
+    <None Remove="fonts\QCF_P005.TTF" />
+    <None Remove="fonts\QCF_P006.TTF" />
+    <None Remove="fonts\QCF_P007.TTF" />
+    <None Remove="fonts\QCF_P008.TTF" />
+    <None Remove="fonts\QCF_P009.TTF" />
+    <None Remove="fonts\QCF_P010.TTF" />
+    <None Remove="fonts\QCF_P011.TTF" />
+    <None Remove="fonts\QCF_P012.TTF" />
+    <None Remove="fonts\QCF_P013.TTF" />
+    <None Remove="fonts\QCF_P014.TTF" />
+    <None Remove="fonts\QCF_P015.TTF" />
+    <None Remove="fonts\QCF_P016.TTF" />
+    <None Remove="fonts\QCF_P017.TTF" />
+    <None Remove="fonts\QCF_P018.TTF" />
+    <None Remove="fonts\QCF_P019.TTF" />
+    <None Remove="fonts\QCF_P020.TTF" />
+    <None Remove="fonts\QCF_P021.TTF" />
+    <None Remove="fonts\QCF_P022.TTF" />
+    <None Remove="fonts\QCF_P023.TTF" />
+    <None Remove="fonts\QCF_P024.TTF" />
+    <None Remove="fonts\QCF_P025.TTF" />
+    <None Remove="fonts\QCF_P026.TTF" />
+    <None Remove="fonts\QCF_P027.TTF" />
+    <None Remove="fonts\QCF_P028.TTF" />
+    <None Remove="fonts\QCF_P029.TTF" />
+    <None Remove="fonts\QCF_P030.TTF" />
+    <None Remove="fonts\QCF_P031.TTF" />
+    <None Remove="fonts\QCF_P032.TTF" />
+    <None Remove="fonts\QCF_P033.TTF" />
+    <None Remove="fonts\QCF_P034.TTF" />
+    <None Remove="fonts\QCF_P035.TTF" />
+    <None Remove="fonts\QCF_P036.TTF" />
+    <None Remove="fonts\QCF_P037.TTF" />
+    <None Remove="fonts\QCF_P038.TTF" />
+    <None Remove="fonts\QCF_P039.TTF" />
+    <None Remove="fonts\QCF_P040.TTF" />
+    <None Remove="fonts\QCF_P041.TTF" />
+    <None Remove="fonts\QCF_P042.TTF" />
+    <None Remove="fonts\QCF_P043.TTF" />
+    <None Remove="fonts\QCF_P044.TTF" />
+    <None Remove="fonts\QCF_P045.TTF" />
+    <None Remove="fonts\QCF_P046.TTF" />
+    <None Remove="fonts\QCF_P047.TTF" />
+    <None Remove="fonts\QCF_P048.TTF" />
+    <None Remove="fonts\QCF_P049.TTF" />
+    <None Remove="fonts\QCF_P050.TTF" />
+    <None Remove="fonts\QCF_P051.TTF" />
+    <None Remove="fonts\QCF_P052.TTF" />
+    <None Remove="fonts\QCF_P053.TTF" />
+    <None Remove="fonts\QCF_P054.TTF" />
+    <None Remove="fonts\QCF_P055.TTF" />
+    <None Remove="fonts\QCF_P056.TTF" />
+    <None Remove="fonts\QCF_P057.TTF" />
+    <None Remove="fonts\QCF_P058.TTF" />
+    <None Remove="fonts\QCF_P059.TTF" />
+    <None Remove="fonts\QCF_P060.TTF" />
+    <None Remove="fonts\QCF_P061.TTF" />
+    <None Remove="fonts\QCF_P062.TTF" />
+    <None Remove="fonts\QCF_P063.TTF" />
+    <None Remove="fonts\QCF_P064.TTF" />
+    <None Remove="fonts\QCF_P065.TTF" />
+    <None Remove="fonts\QCF_P066.TTF" />
+    <None Remove="fonts\QCF_P067.TTF" />
+    <None Remove="fonts\QCF_P068.TTF" />
+    <None Remove="fonts\QCF_P069.TTF" />
+    <None Remove="fonts\QCF_P070.TTF" />
+    <None Remove="fonts\QCF_P071.TTF" />
+    <None Remove="fonts\QCF_P072.TTF" />
+    <None Remove="fonts\QCF_P073.TTF" />
+    <None Remove="fonts\QCF_P074.TTF" />
+    <None Remove="fonts\QCF_P075.TTF" />
+    <None Remove="fonts\QCF_P076.TTF" />
+    <None Remove="fonts\QCF_P077.TTF" />
+    <None Remove="fonts\QCF_P078.TTF" />
+    <None Remove="fonts\QCF_P079.TTF" />
+    <None Remove="fonts\QCF_P080.TTF" />
+    <None Remove="fonts\QCF_P081.TTF" />
+    <None Remove="fonts\QCF_P082.TTF" />
+    <None Remove="fonts\QCF_P083.TTF" />
+    <None Remove="fonts\QCF_P084.TTF" />
+    <None Remove="fonts\QCF_P085.TTF" />
+    <None Remove="fonts\QCF_P086.TTF" />
+    <None Remove="fonts\QCF_P087.TTF" />
+    <None Remove="fonts\QCF_P088.TTF" />
+    <None Remove="fonts\QCF_P089.TTF" />
+    <None Remove="fonts\QCF_P090.TTF" />
+    <None Remove="fonts\QCF_P091.TTF" />
+    <None Remove="fonts\QCF_P092.TTF" />
+    <None Remove="fonts\QCF_P093.TTF" />
+    <None Remove="fonts\QCF_P094.TTF" />
+    <None Remove="fonts\QCF_P095.TTF" />
+    <None Remove="fonts\QCF_P096.TTF" />
+    <None Remove="fonts\QCF_P097.TTF" />
+    <None Remove="fonts\QCF_P098.TTF" />
+    <None Remove="fonts\QCF_P099.TTF" />
+    <None Remove="fonts\QCF_P100.TTF" />
+    <None Remove="fonts\QCF_P101.TTF" />
+    <None Remove="fonts\QCF_P102.TTF" />
+    <None Remove="fonts\QCF_P103.TTF" />
+    <None Remove="fonts\QCF_P104.TTF" />
+    <None Remove="fonts\QCF_P105.TTF" />
+    <None Remove="fonts\QCF_P106.TTF" />
+    <None Remove="fonts\QCF_P107.TTF" />
+    <None Remove="fonts\QCF_P108.TTF" />
+    <None Remove="fonts\QCF_P109.TTF" />
+    <None Remove="fonts\QCF_P110.TTF" />
+    <None Remove="fonts\QCF_P111.TTF" />
+    <None Remove="fonts\QCF_P112.TTF" />
+    <None Remove="fonts\QCF_P113.TTF" />
+    <None Remove="fonts\QCF_P114.TTF" />
+    <None Remove="fonts\QCF_P115.TTF" />
+    <None Remove="fonts\QCF_P116.TTF" />
+    <None Remove="fonts\QCF_P117.TTF" />
+    <None Remove="fonts\QCF_P118.TTF" />
+    <None Remove="fonts\QCF_P119.TTF" />
+    <None Remove="fonts\QCF_P120.TTF" />
+    <None Remove="fonts\QCF_P121.TTF" />
+    <None Remove="fonts\QCF_P122.TTF" />
+    <None Remove="fonts\QCF_P123.TTF" />
+    <None Remove="fonts\QCF_P124.TTF" />
+    <None Remove="fonts\QCF_P125.TTF" />
+    <None Remove="fonts\QCF_P126.TTF" />
+    <None Remove="fonts\QCF_P127.TTF" />
+    <None Remove="fonts\QCF_P128.TTF" />
+    <None Remove="fonts\QCF_P129.TTF" />
+    <None Remove="fonts\QCF_P130.TTF" />
+    <None Remove="fonts\QCF_P131.TTF" />
+    <None Remove="fonts\QCF_P132.TTF" />
+    <None Remove="fonts\QCF_P133.TTF" />
+    <None Remove="fonts\QCF_P134.TTF" />
+    <None Remove="fonts\QCF_P135.TTF" />
+    <None Remove="fonts\QCF_P136.TTF" />
+    <None Remove="fonts\QCF_P137.TTF" />
+    <None Remove="fonts\QCF_P138.TTF" />
+    <None Remove="fonts\QCF_P139.TTF" />
+    <None Remove="fonts\QCF_P140.TTF" />
+    <None Remove="fonts\QCF_P141.TTF" />
+    <None Remove="fonts\QCF_P142.TTF" />
+    <None Remove="fonts\QCF_P143.TTF" />
+    <None Remove="fonts\QCF_P144.TTF" />
+    <None Remove="fonts\QCF_P145.TTF" />
+    <None Remove="fonts\QCF_P146.TTF" />
+    <None Remove="fonts\QCF_P147.TTF" />
+    <None Remove="fonts\QCF_P148.TTF" />
+    <None Remove="fonts\QCF_P149.TTF" />
+    <None Remove="fonts\QCF_P150.TTF" />
+    <None Remove="fonts\QCF_P151.TTF" />
+    <None Remove="fonts\QCF_P152.TTF" />
+    <None Remove="fonts\QCF_P153.TTF" />
+    <None Remove="fonts\QCF_P154.TTF" />
+    <None Remove="fonts\QCF_P155.TTF" />
+    <None Remove="fonts\QCF_P156.TTF" />
+    <None Remove="fonts\QCF_P157.TTF" />
+    <None Remove="fonts\QCF_P158.TTF" />
+    <None Remove="fonts\QCF_P159.TTF" />
+    <None Remove="fonts\QCF_P160.TTF" />
+    <None Remove="fonts\QCF_P161.TTF" />
+    <None Remove="fonts\QCF_P162.TTF" />
+    <None Remove="fonts\QCF_P163.TTF" />
+    <None Remove="fonts\QCF_P164.TTF" />
+    <None Remove="fonts\QCF_P165.TTF" />
+    <None Remove="fonts\QCF_P166.TTF" />
+    <None Remove="fonts\QCF_P167.TTF" />
+    <None Remove="fonts\QCF_P168.TTF" />
+    <None Remove="fonts\QCF_P169.TTF" />
+    <None Remove="fonts\QCF_P170.TTF" />
+    <None Remove="fonts\QCF_P171.TTF" />
+    <None Remove="fonts\QCF_P172.TTF" />
+    <None Remove="fonts\QCF_P173.TTF" />
+    <None Remove="fonts\QCF_P174.TTF" />
+    <None Remove="fonts\QCF_P175.TTF" />
+    <None Remove="fonts\QCF_P176.TTF" />
+    <None Remove="fonts\QCF_P177.TTF" />
+    <None Remove="fonts\QCF_P178.TTF" />
+    <None Remove="fonts\QCF_P179.TTF" />
+    <None Remove="fonts\QCF_P180.TTF" />
+    <None Remove="fonts\QCF_P181.TTF" />
+    <None Remove="fonts\QCF_P182.TTF" />
+    <None Remove="fonts\QCF_P183.TTF" />
+    <None Remove="fonts\QCF_P184.TTF" />
+    <None Remove="fonts\QCF_P185.TTF" />
+    <None Remove="fonts\QCF_P186.TTF" />
+    <None Remove="fonts\QCF_P187.TTF" />
+    <None Remove="fonts\QCF_P188.TTF" />
+    <None Remove="fonts\QCF_P189.TTF" />
+    <None Remove="fonts\QCF_P190.TTF" />
+    <None Remove="fonts\QCF_P191.TTF" />
+    <None Remove="fonts\QCF_P192.TTF" />
+    <None Remove="fonts\QCF_P193.TTF" />
+    <None Remove="fonts\QCF_P194.TTF" />
+    <None Remove="fonts\QCF_P195.TTF" />
+    <None Remove="fonts\QCF_P196.TTF" />
+    <None Remove="fonts\QCF_P197.TTF" />
+    <None Remove="fonts\QCF_P198.TTF" />
+    <None Remove="fonts\QCF_P199.TTF" />
+    <None Remove="fonts\QCF_P200.TTF" />
+    <None Remove="fonts\QCF_P201.TTF" />
+    <None Remove="fonts\QCF_P202.TTF" />
+    <None Remove="fonts\QCF_P203.TTF" />
+    <None Remove="fonts\QCF_P204.TTF" />
+    <None Remove="fonts\QCF_P205.TTF" />
+    <None Remove="fonts\QCF_P206.TTF" />
+    <None Remove="fonts\QCF_P207.TTF" />
+    <None Remove="fonts\QCF_P208.TTF" />
+    <None Remove="fonts\QCF_P209.TTF" />
+    <None Remove="fonts\QCF_P210.TTF" />
+    <None Remove="fonts\QCF_P211.TTF" />
+    <None Remove="fonts\QCF_P212.TTF" />
+    <None Remove="fonts\QCF_P213.TTF" />
+    <None Remove="fonts\QCF_P214.TTF" />
+    <None Remove="fonts\QCF_P215.TTF" />
+    <None Remove="fonts\QCF_P216.TTF" />
+    <None Remove="fonts\QCF_P217.TTF" />
+    <None Remove="fonts\QCF_P218.TTF" />
+    <None Remove="fonts\QCF_P219.TTF" />
+    <None Remove="fonts\QCF_P220.TTF" />
+    <None Remove="fonts\QCF_P221.TTF" />
+    <None Remove="fonts\QCF_P222.TTF" />
+    <None Remove="fonts\QCF_P223.TTF" />
+    <None Remove="fonts\QCF_P224.TTF" />
+    <None Remove="fonts\QCF_P225.TTF" />
+    <None Remove="fonts\QCF_P226.TTF" />
+    <None Remove="fonts\QCF_P227.TTF" />
+    <None Remove="fonts\QCF_P228.TTF" />
+    <None Remove="fonts\QCF_P229.TTF" />
+    <None Remove="fonts\QCF_P230.TTF" />
+    <None Remove="fonts\QCF_P231.TTF" />
+    <None Remove="fonts\QCF_P232.TTF" />
+    <None Remove="fonts\QCF_P233.TTF" />
+    <None Remove="fonts\QCF_P234.TTF" />
+    <None Remove="fonts\QCF_P235.TTF" />
+    <None Remove="fonts\QCF_P236.TTF" />
+    <None Remove="fonts\QCF_P237.TTF" />
+    <None Remove="fonts\QCF_P238.TTF" />
+    <None Remove="fonts\QCF_P239.TTF" />
+    <None Remove="fonts\QCF_P240.TTF" />
+    <None Remove="fonts\QCF_P241.TTF" />
+    <None Remove="fonts\QCF_P242.TTF" />
+    <None Remove="fonts\QCF_P243.TTF" />
+    <None Remove="fonts\QCF_P244.TTF" />
+    <None Remove="fonts\QCF_P245.TTF" />
+    <None Remove="fonts\QCF_P246.TTF" />
+    <None Remove="fonts\QCF_P247.TTF" />
+    <None Remove="fonts\QCF_P248.TTF" />
+    <None Remove="fonts\QCF_P249.TTF" />
+    <None Remove="fonts\QCF_P250.TTF" />
+    <None Remove="fonts\QCF_P251.TTF" />
+    <None Remove="fonts\QCF_P252.TTF" />
+    <None Remove="fonts\QCF_P253.TTF" />
+    <None Remove="fonts\QCF_P254.TTF" />
+    <None Remove="fonts\QCF_P255.TTF" />
+    <None Remove="fonts\QCF_P256.TTF" />
+    <None Remove="fonts\QCF_P257.TTF" />
+    <None Remove="fonts\QCF_P258.TTF" />
+    <None Remove="fonts\QCF_P259.TTF" />
+    <None Remove="fonts\QCF_P260.TTF" />
+    <None Remove="fonts\QCF_P261.TTF" />
+    <None Remove="fonts\QCF_P262.TTF" />
+    <None Remove="fonts\QCF_P263.TTF" />
+    <None Remove="fonts\QCF_P264.TTF" />
+    <None Remove="fonts\QCF_P265.TTF" />
+    <None Remove="fonts\QCF_P266.TTF" />
+    <None Remove="fonts\QCF_P267.TTF" />
+    <None Remove="fonts\QCF_P268.TTF" />
+    <None Remove="fonts\QCF_P269.TTF" />
+    <None Remove="fonts\QCF_P270.TTF" />
+    <None Remove="fonts\QCF_P271.TTF" />
+    <None Remove="fonts\QCF_P272.TTF" />
+    <None Remove="fonts\QCF_P273.TTF" />
+    <None Remove="fonts\QCF_P274.TTF" />
+    <None Remove="fonts\QCF_P275.TTF" />
+    <None Remove="fonts\QCF_P276.TTF" />
+    <None Remove="fonts\QCF_P277.TTF" />
+    <None Remove="fonts\QCF_P278.TTF" />
+    <None Remove="fonts\QCF_P279.TTF" />
+    <None Remove="fonts\QCF_P280.TTF" />
+    <None Remove="fonts\QCF_P281.TTF" />
+    <None Remove="fonts\QCF_P282.TTF" />
+    <None Remove="fonts\QCF_P283.TTF" />
+    <None Remove="fonts\QCF_P284.TTF" />
+    <None Remove="fonts\QCF_P285.TTF" />
+    <None Remove="fonts\QCF_P286.TTF" />
+    <None Remove="fonts\QCF_P287.TTF" />
+    <None Remove="fonts\QCF_P288.TTF" />
+    <None Remove="fonts\QCF_P289.TTF" />
+    <None Remove="fonts\QCF_P290.TTF" />
+    <None Remove="fonts\QCF_P291.TTF" />
+    <None Remove="fonts\QCF_P292.TTF" />
+    <None Remove="fonts\QCF_P293.TTF" />
+    <None Remove="fonts\QCF_P294.TTF" />
+    <None Remove="fonts\QCF_P295.TTF" />
+    <None Remove="fonts\QCF_P296.TTF" />
+    <None Remove="fonts\QCF_P297.TTF" />
+    <None Remove="fonts\QCF_P298.TTF" />
+    <None Remove="fonts\QCF_P299.TTF" />
+    <None Remove="fonts\QCF_P300.TTF" />
+    <None Remove="fonts\QCF_P301.TTF" />
+    <None Remove="fonts\QCF_P302.TTF" />
+    <None Remove="fonts\QCF_P303.TTF" />
+    <None Remove="fonts\QCF_P304.TTF" />
+    <None Remove="fonts\QCF_P305.TTF" />
+    <None Remove="fonts\QCF_P306.TTF" />
+    <None Remove="fonts\QCF_P307.TTF" />
+    <None Remove="fonts\QCF_P308.TTF" />
+    <None Remove="fonts\QCF_P309.TTF" />
+    <None Remove="fonts\QCF_P310.TTF" />
+    <None Remove="fonts\QCF_P311.TTF" />
+    <None Remove="fonts\QCF_P312.TTF" />
+    <None Remove="fonts\QCF_P313.TTF" />
+    <None Remove="fonts\QCF_P314.TTF" />
+    <None Remove="fonts\QCF_P315.TTF" />
+    <None Remove="fonts\QCF_P316.TTF" />
+    <None Remove="fonts\QCF_P317.TTF" />
+    <None Remove="fonts\QCF_P318.TTF" />
+    <None Remove="fonts\QCF_P319.TTF" />
+    <None Remove="fonts\QCF_P320.TTF" />
+    <None Remove="fonts\QCF_P321.TTF" />
+    <None Remove="fonts\QCF_P322.TTF" />
+    <None Remove="fonts\QCF_P323.TTF" />
+    <None Remove="fonts\QCF_P324.TTF" />
+    <None Remove="fonts\QCF_P325.TTF" />
+    <None Remove="fonts\QCF_P326.TTF" />
+    <None Remove="fonts\QCF_P327.TTF" />
+    <None Remove="fonts\QCF_P328.TTF" />
+    <None Remove="fonts\QCF_P329.TTF" />
+    <None Remove="fonts\QCF_P330.TTF" />
+    <None Remove="fonts\QCF_P331.TTF" />
+    <None Remove="fonts\QCF_P332.TTF" />
+    <None Remove="fonts\QCF_P333.TTF" />
+    <None Remove="fonts\QCF_P334.TTF" />
+    <None Remove="fonts\QCF_P335.TTF" />
+    <None Remove="fonts\QCF_P336.TTF" />
+    <None Remove="fonts\QCF_P337.TTF" />
+    <None Remove="fonts\QCF_P338.TTF" />
+    <None Remove="fonts\QCF_P339.TTF" />
+    <None Remove="fonts\QCF_P340.TTF" />
+    <None Remove="fonts\QCF_P341.TTF" />
+    <None Remove="fonts\QCF_P342.TTF" />
+    <None Remove="fonts\QCF_P343.TTF" />
+    <None Remove="fonts\QCF_P344.TTF" />
+    <None Remove="fonts\QCF_P345.TTF" />
+    <None Remove="fonts\QCF_P346.TTF" />
+    <None Remove="fonts\QCF_P347.TTF" />
+    <None Remove="fonts\QCF_P348.TTF" />
+    <None Remove="fonts\QCF_P349.TTF" />
+    <None Remove="fonts\QCF_P350.TTF" />
+    <None Remove="fonts\QCF_P351.TTF" />
+    <None Remove="fonts\QCF_P352.TTF" />
+    <None Remove="fonts\QCF_P353.TTF" />
+    <None Remove="fonts\QCF_P354.TTF" />
+    <None Remove="fonts\QCF_P355.TTF" />
+    <None Remove="fonts\QCF_P356.TTF" />
+    <None Remove="fonts\QCF_P357.TTF" />
+    <None Remove="fonts\QCF_P358.TTF" />
+    <None Remove="fonts\QCF_P359.TTF" />
+    <None Remove="fonts\QCF_P360.TTF" />
+    <None Remove="fonts\QCF_P361.TTF" />
+    <None Remove="fonts\QCF_P362.TTF" />
+    <None Remove="fonts\QCF_P363.TTF" />
+    <None Remove="fonts\QCF_P364.TTF" />
+    <None Remove="fonts\QCF_P365.TTF" />
+    <None Remove="fonts\QCF_P366.TTF" />
+    <None Remove="fonts\QCF_P367.TTF" />
+    <None Remove="fonts\QCF_P368.TTF" />
+    <None Remove="fonts\QCF_P369.TTF" />
+    <None Remove="fonts\QCF_P370.TTF" />
+    <None Remove="fonts\QCF_P371.TTF" />
+    <None Remove="fonts\QCF_P372.TTF" />
+    <None Remove="fonts\QCF_P373.TTF" />
+    <None Remove="fonts\QCF_P374.TTF" />
+    <None Remove="fonts\QCF_P375.TTF" />
+    <None Remove="fonts\QCF_P376.TTF" />
+    <None Remove="fonts\QCF_P377.TTF" />
+    <None Remove="fonts\QCF_P378.TTF" />
+    <None Remove="fonts\QCF_P379.TTF" />
+    <None Remove="fonts\QCF_P380.TTF" />
+    <None Remove="fonts\QCF_P381.TTF" />
+    <None Remove="fonts\QCF_P382.TTF" />
+    <None Remove="fonts\QCF_P383.TTF" />
+    <None Remove="fonts\QCF_P384.TTF" />
+    <None Remove="fonts\QCF_P385.TTF" />
+    <None Remove="fonts\QCF_P386.TTF" />
+    <None Remove="fonts\QCF_P387.TTF" />
+    <None Remove="fonts\QCF_P388.TTF" />
+    <None Remove="fonts\QCF_P389.TTF" />
+    <None Remove="fonts\QCF_P390.TTF" />
+    <None Remove="fonts\QCF_P391.TTF" />
+    <None Remove="fonts\QCF_P392.TTF" />
+    <None Remove="fonts\QCF_P393.TTF" />
+    <None Remove="fonts\QCF_P394.TTF" />
+    <None Remove="fonts\QCF_P395.TTF" />
+    <None Remove="fonts\QCF_P396.TTF" />
+    <None Remove="fonts\QCF_P397.TTF" />
+    <None Remove="fonts\QCF_P398.TTF" />
+    <None Remove="fonts\QCF_P399.TTF" />
+    <None Remove="fonts\QCF_P400.TTF" />
+    <None Remove="fonts\QCF_P401.TTF" />
+    <None Remove="fonts\QCF_P402.TTF" />
+    <None Remove="fonts\QCF_P403.TTF" />
+    <None Remove="fonts\QCF_P404.TTF" />
+    <None Remove="fonts\QCF_P405.TTF" />
+    <None Remove="fonts\QCF_P406.TTF" />
+    <None Remove="fonts\QCF_P407.TTF" />
+    <None Remove="fonts\QCF_P408.TTF" />
+    <None Remove="fonts\QCF_P409.TTF" />
+    <None Remove="fonts\QCF_P410.TTF" />
+    <None Remove="fonts\QCF_P411.TTF" />
+    <None Remove="fonts\QCF_P412.TTF" />
+    <None Remove="fonts\QCF_P413.TTF" />
+    <None Remove="fonts\QCF_P414.TTF" />
+    <None Remove="fonts\QCF_P415.TTF" />
+    <None Remove="fonts\QCF_P416.TTF" />
+    <None Remove="fonts\QCF_P417.TTF" />
+    <None Remove="fonts\QCF_P418.TTF" />
+    <None Remove="fonts\QCF_P419.TTF" />
+    <None Remove="fonts\QCF_P420.TTF" />
+    <None Remove="fonts\QCF_P421.TTF" />
+    <None Remove="fonts\QCF_P422.TTF" />
+    <None Remove="fonts\QCF_P423.TTF" />
+    <None Remove="fonts\QCF_P424.TTF" />
+    <None Remove="fonts\QCF_P425.TTF" />
+    <None Remove="fonts\QCF_P426.TTF" />
+    <None Remove="fonts\QCF_P427.TTF" />
+    <None Remove="fonts\QCF_P428.TTF" />
+    <None Remove="fonts\QCF_P429.TTF" />
+    <None Remove="fonts\QCF_P430.TTF" />
+    <None Remove="fonts\QCF_P431.TTF" />
+    <None Remove="fonts\QCF_P432.TTF" />
+    <None Remove="fonts\QCF_P433.TTF" />
+    <None Remove="fonts\QCF_P434.TTF" />
+    <None Remove="fonts\QCF_P435.TTF" />
+    <None Remove="fonts\QCF_P436.TTF" />
+    <None Remove="fonts\QCF_P437.TTF" />
+    <None Remove="fonts\QCF_P438.TTF" />
+    <None Remove="fonts\QCF_P439.TTF" />
+    <None Remove="fonts\QCF_P440.TTF" />
+    <None Remove="fonts\QCF_P441.TTF" />
+    <None Remove="fonts\QCF_P442.TTF" />
+    <None Remove="fonts\QCF_P443.TTF" />
+    <None Remove="fonts\QCF_P444.TTF" />
+    <None Remove="fonts\QCF_P445.TTF" />
+    <None Remove="fonts\QCF_P446.TTF" />
+    <None Remove="fonts\QCF_P447.TTF" />
+    <None Remove="fonts\QCF_P448.TTF" />
+    <None Remove="fonts\QCF_P449.TTF" />
+    <None Remove="fonts\QCF_P450.TTF" />
+    <None Remove="fonts\QCF_P451.TTF" />
+    <None Remove="fonts\QCF_P452.TTF" />
+    <None Remove="fonts\QCF_P453.TTF" />
+    <None Remove="fonts\QCF_P454.TTF" />
+    <None Remove="fonts\QCF_P455.TTF" />
+    <None Remove="fonts\QCF_P456.TTF" />
+    <None Remove="fonts\QCF_P457.TTF" />
+    <None Remove="fonts\QCF_P458.TTF" />
+    <None Remove="fonts\QCF_P459.TTF" />
+    <None Remove="fonts\QCF_P460.TTF" />
+    <None Remove="fonts\QCF_P461.TTF" />
+    <None Remove="fonts\QCF_P462.TTF" />
+    <None Remove="fonts\QCF_P463.TTF" />
+    <None Remove="fonts\QCF_P464.TTF" />
+    <None Remove="fonts\QCF_P465.TTF" />
+    <None Remove="fonts\QCF_P466.TTF" />
+    <None Remove="fonts\QCF_P467.TTF" />
+    <None Remove="fonts\QCF_P468.TTF" />
+    <None Remove="fonts\QCF_P469.TTF" />
+    <None Remove="fonts\QCF_P470.TTF" />
+    <None Remove="fonts\QCF_P471.TTF" />
+    <None Remove="fonts\QCF_P472.TTF" />
+    <None Remove="fonts\QCF_P473.TTF" />
+    <None Remove="fonts\QCF_P474.TTF" />
+    <None Remove="fonts\QCF_P475.TTF" />
+    <None Remove="fonts\QCF_P476.TTF" />
+    <None Remove="fonts\QCF_P477.TTF" />
+    <None Remove="fonts\QCF_P478.TTF" />
+    <None Remove="fonts\QCF_P479.TTF" />
+    <None Remove="fonts\QCF_P480.TTF" />
+    <None Remove="fonts\QCF_P481.TTF" />
+    <None Remove="fonts\QCF_P482.TTF" />
+    <None Remove="fonts\QCF_P483.TTF" />
+    <None Remove="fonts\QCF_P484.TTF" />
+    <None Remove="fonts\QCF_P485.TTF" />
+    <None Remove="fonts\QCF_P486.TTF" />
+    <None Remove="fonts\QCF_P487.TTF" />
+    <None Remove="fonts\QCF_P488.TTF" />
+    <None Remove="fonts\QCF_P489.TTF" />
+    <None Remove="fonts\QCF_P490.TTF" />
+    <None Remove="fonts\QCF_P491.TTF" />
+    <None Remove="fonts\QCF_P492.TTF" />
+    <None Remove="fonts\QCF_P493.TTF" />
+    <None Remove="fonts\QCF_P494.TTF" />
+    <None Remove="fonts\QCF_P495.TTF" />
+    <None Remove="fonts\QCF_P496.TTF" />
+    <None Remove="fonts\QCF_P497.TTF" />
+    <None Remove="fonts\QCF_P498.TTF" />
+    <None Remove="fonts\QCF_P499.TTF" />
+    <None Remove="fonts\QCF_P500.TTF" />
+    <None Remove="fonts\QCF_P501.TTF" />
+    <None Remove="fonts\QCF_P502.TTF" />
+    <None Remove="fonts\QCF_P503.TTF" />
+    <None Remove="fonts\QCF_P504.TTF" />
+    <None Remove="fonts\QCF_P505.TTF" />
+    <None Remove="fonts\QCF_P506.TTF" />
+    <None Remove="fonts\QCF_P507.TTF" />
+    <None Remove="fonts\QCF_P508.TTF" />
+    <None Remove="fonts\QCF_P509.TTF" />
+    <None Remove="fonts\QCF_P510.TTF" />
+    <None Remove="fonts\QCF_P511.TTF" />
+    <None Remove="fonts\QCF_P512.TTF" />
+    <None Remove="fonts\QCF_P513.TTF" />
+    <None Remove="fonts\QCF_P514.TTF" />
+    <None Remove="fonts\QCF_P515.TTF" />
+    <None Remove="fonts\QCF_P516.TTF" />
+    <None Remove="fonts\QCF_P517.TTF" />
+    <None Remove="fonts\QCF_P518.TTF" />
+    <None Remove="fonts\QCF_P519.TTF" />
+    <None Remove="fonts\QCF_P520.TTF" />
+    <None Remove="fonts\QCF_P521.TTF" />
+    <None Remove="fonts\QCF_P522.TTF" />
+    <None Remove="fonts\QCF_P523.TTF" />
+    <None Remove="fonts\QCF_P524.TTF" />
+    <None Remove="fonts\QCF_P525.TTF" />
+    <None Remove="fonts\QCF_P526.TTF" />
+    <None Remove="fonts\QCF_P527.TTF" />
+    <None Remove="fonts\QCF_P528.TTF" />
+    <None Remove="fonts\QCF_P529.TTF" />
+    <None Remove="fonts\QCF_P530.TTF" />
+    <None Remove="fonts\QCF_P531.TTF" />
+    <None Remove="fonts\QCF_P532.TTF" />
+    <None Remove="fonts\QCF_P533.TTF" />
+    <None Remove="fonts\QCF_P534.TTF" />
+    <None Remove="fonts\QCF_P535.TTF" />
+    <None Remove="fonts\QCF_P536.TTF" />
+    <None Remove="fonts\QCF_P537.TTF" />
+    <None Remove="fonts\QCF_P538.TTF" />
+    <None Remove="fonts\QCF_P539.TTF" />
+    <None Remove="fonts\QCF_P540.TTF" />
+    <None Remove="fonts\QCF_P541.TTF" />
+    <None Remove="fonts\QCF_P542.TTF" />
+    <None Remove="fonts\QCF_P543.TTF" />
+    <None Remove="fonts\QCF_P544.TTF" />
+    <None Remove="fonts\QCF_P545.TTF" />
+    <None Remove="fonts\QCF_P546.TTF" />
+    <None Remove="fonts\QCF_P547.TTF" />
+    <None Remove="fonts\QCF_P548.TTF" />
+    <None Remove="fonts\QCF_P549.TTF" />
+    <None Remove="fonts\QCF_P550.TTF" />
+    <None Remove="fonts\QCF_P551.TTF" />
+    <None Remove="fonts\QCF_P552.TTF" />
+    <None Remove="fonts\QCF_P553.TTF" />
+    <None Remove="fonts\QCF_P554.TTF" />
+    <None Remove="fonts\QCF_P555.TTF" />
+    <None Remove="fonts\QCF_P556.TTF" />
+    <None Remove="fonts\QCF_P557.TTF" />
+    <None Remove="fonts\QCF_P558.TTF" />
+    <None Remove="fonts\QCF_P559.TTF" />
+    <None Remove="fonts\QCF_P560.TTF" />
+    <None Remove="fonts\QCF_P561.TTF" />
+    <None Remove="fonts\QCF_P562.TTF" />
+    <None Remove="fonts\QCF_P563.TTF" />
+    <None Remove="fonts\QCF_P564.TTF" />
+    <None Remove="fonts\QCF_P565.TTF" />
+    <None Remove="fonts\QCF_P566.TTF" />
+    <None Remove="fonts\QCF_P567.TTF" />
+    <None Remove="fonts\QCF_P568.TTF" />
+    <None Remove="fonts\QCF_P569.TTF" />
+    <None Remove="fonts\QCF_P570.TTF" />
+    <None Remove="fonts\QCF_P571.TTF" />
+    <None Remove="fonts\QCF_P572.TTF" />
+    <None Remove="fonts\QCF_P573.TTF" />
+    <None Remove="fonts\QCF_P574.TTF" />
+    <None Remove="fonts\QCF_P575.TTF" />
+    <None Remove="fonts\QCF_P576.TTF" />
+    <None Remove="fonts\QCF_P577.TTF" />
+    <None Remove="fonts\QCF_P578.TTF" />
+    <None Remove="fonts\QCF_P579.TTF" />
+    <None Remove="fonts\QCF_P580.TTF" />
+    <None Remove="fonts\QCF_P581.TTF" />
+    <None Remove="fonts\QCF_P582.TTF" />
+    <None Remove="fonts\QCF_P583.TTF" />
+    <None Remove="fonts\QCF_P584.TTF" />
+    <None Remove="fonts\QCF_P585.TTF" />
+    <None Remove="fonts\QCF_P586.TTF" />
+    <None Remove="fonts\QCF_P587.TTF" />
+    <None Remove="fonts\QCF_P588.TTF" />
+    <None Remove="fonts\QCF_P589.TTF" />
+    <None Remove="fonts\QCF_P590.TTF" />
+    <None Remove="fonts\QCF_P591.TTF" />
+    <None Remove="fonts\QCF_P592.TTF" />
+    <None Remove="fonts\QCF_P593.TTF" />
+    <None Remove="fonts\QCF_P594.TTF" />
+    <None Remove="fonts\QCF_P595.TTF" />
+    <None Remove="fonts\QCF_P596.TTF" />
+    <None Remove="fonts\QCF_P597.TTF" />
+    <None Remove="fonts\QCF_P598.TTF" />
+    <None Remove="fonts\QCF_P599.TTF" />
+    <None Remove="fonts\QCF_P600.TTF" />
+    <None Remove="fonts\QCF_P601.TTF" />
+    <None Remove="fonts\QCF_P602.TTF" />
+    <None Remove="fonts\QCF_P603.TTF" />
+    <None Remove="fonts\QCF_P604.TTF" />
+    <None Remove="HtmlTemplate\Madinah_Mushaf_Template\index.html" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="fonts\Arial_8.woff">
+
+
+
+
+
+
+    <Content Include="fonts\QCF_BSML.TTF">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="fonts\Arial_8_1.woff">
+    <Content Include="fonts\QCF_P001.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P002.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P003.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P004.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P005.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P006.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P007.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P008.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P009.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P010.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P011.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P012.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P013.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P014.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P015.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P016.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P017.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P018.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P019.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P020.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P021.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P022.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P023.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P024.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P025.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P026.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P027.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P028.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P029.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P030.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P031.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P032.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P033.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P034.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P035.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P036.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P037.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P038.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P039.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P040.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P041.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P042.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P043.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P044.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P045.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P046.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P047.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P048.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P049.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P050.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P051.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P052.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P053.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P054.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P055.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P056.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P057.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P058.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P059.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P060.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P061.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P062.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P063.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P064.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P065.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P066.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P067.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P068.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P069.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P070.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P071.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P072.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P073.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P074.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P075.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P076.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P077.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P078.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P079.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P080.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P081.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P082.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P083.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P084.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P085.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P086.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P087.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P088.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P089.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P090.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P091.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P092.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P093.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P094.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P095.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P096.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P097.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P098.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P099.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P100.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P101.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P102.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P103.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P104.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P105.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P106.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P107.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P108.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P109.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P110.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P111.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P112.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P113.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P114.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P115.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P116.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P117.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P118.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P119.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P120.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P121.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P122.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P123.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P124.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P125.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P126.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P127.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P128.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P129.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P130.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P131.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P132.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P133.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P134.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P135.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P136.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P137.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P138.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P139.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P140.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P141.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P142.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P143.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P144.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P145.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P146.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P147.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P148.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P149.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P150.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P151.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P152.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P153.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P154.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P155.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P156.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P157.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P158.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P159.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P160.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P161.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P162.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P163.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P164.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P165.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P166.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P167.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P168.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P169.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P170.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P171.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P172.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P173.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P174.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P175.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P176.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P177.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P178.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P179.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P180.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P181.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P182.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P183.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P184.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P185.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P186.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P187.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P188.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P189.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P190.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P191.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P192.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P193.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P194.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P195.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P196.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P197.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P198.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P199.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P200.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P201.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P202.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P203.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P204.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P205.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P206.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P207.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P208.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P209.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P210.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P211.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P212.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P213.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P214.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P215.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P216.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P217.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P218.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P219.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P220.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P221.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P222.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P223.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P224.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P225.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P226.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P227.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P228.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P229.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P230.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P231.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P232.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P233.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P234.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P235.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P236.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P237.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P238.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P239.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P240.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P241.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P242.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P243.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P244.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P245.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P246.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P247.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P248.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P249.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P250.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P251.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P252.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P253.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P254.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P255.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P256.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P257.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P258.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P259.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P260.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P261.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P262.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P263.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P264.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P265.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P266.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P267.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P268.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P269.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P270.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P271.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P272.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P273.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P274.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P275.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P276.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P277.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P278.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P279.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P280.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P281.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P282.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P283.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P284.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P285.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P286.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P287.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P288.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P289.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P290.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P291.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P292.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P293.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P294.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P295.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P296.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P297.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P298.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P299.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P300.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P301.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P302.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P303.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P304.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P305.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P306.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P307.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P308.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P309.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P310.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P311.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P312.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P313.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P314.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P315.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P316.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P317.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P318.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P319.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P320.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P321.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P322.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P323.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P324.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P325.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P326.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P327.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P328.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P329.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P330.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P331.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P332.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P333.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P334.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P335.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P336.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P337.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P338.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P339.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P340.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P341.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P342.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P343.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P344.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P345.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P346.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P347.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P348.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P349.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P350.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P351.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P352.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P353.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P354.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P355.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P356.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P357.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P358.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P359.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P360.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P361.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P362.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P363.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P364.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P365.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P366.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P367.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P368.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P369.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P370.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P371.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P372.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P373.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P374.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P375.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P376.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P377.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P378.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P379.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P380.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P381.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P382.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P383.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P384.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P385.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P386.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P387.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P388.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P389.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P390.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P391.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P392.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P393.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P394.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P395.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P396.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P397.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P398.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P399.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P400.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P401.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P402.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P403.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P404.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P405.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P406.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P407.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P408.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P409.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P410.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P411.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P412.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P413.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P414.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P415.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P416.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P417.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P418.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P419.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P420.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P421.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P422.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P423.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P424.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P425.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P426.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P427.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P428.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P429.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P430.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P431.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P432.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P433.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P434.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P435.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P436.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P437.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P438.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P439.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P440.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P441.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P442.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P443.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P444.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P445.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P446.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P447.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P448.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P449.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P450.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P451.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P452.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P453.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P454.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P455.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P456.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P457.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P458.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P459.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P460.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P461.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P462.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P463.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P464.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P465.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P466.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P467.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P468.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P469.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P470.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P471.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P472.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P473.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P474.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P475.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P476.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P477.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P478.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P479.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P480.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P481.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P482.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P483.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P484.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P485.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P486.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P487.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P488.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P489.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P490.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P491.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P492.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P493.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P494.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P495.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P496.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P497.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P498.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P499.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P500.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P501.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P502.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P503.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P504.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P505.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P506.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P507.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P508.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P509.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P510.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P511.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P512.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P513.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P514.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P515.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P516.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P517.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P518.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P519.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P520.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P521.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P522.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P523.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P524.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P525.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P526.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P527.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P528.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P529.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P530.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P531.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P532.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P533.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P534.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P535.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P536.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P537.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P538.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P539.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P540.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P541.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P542.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P543.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P544.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P545.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P546.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P547.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P548.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P549.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P550.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P551.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P552.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P553.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P554.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P555.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P556.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P557.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P558.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P559.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P560.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P561.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P562.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P563.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P564.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P565.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P566.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P567.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P568.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P569.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P570.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P571.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P572.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P573.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P574.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P575.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P576.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P577.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P578.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P579.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P580.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P581.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P582.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P583.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P584.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P585.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P586.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P587.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P588.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P589.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P590.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P591.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P592.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P593.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P594.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P595.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P596.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P597.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P598.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P599.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P600.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P601.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P602.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P603.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\QCF_P604.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HtmlTemplate\Madinah_Mushaf_Template\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -39,1482 +2463,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="fonts\QCF_BSML.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P001.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P002.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P003.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P004.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P005.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P006.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P007.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P008.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P009.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P010.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P011.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P012.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P013.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P014.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P015.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P016.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P017.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P018.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P019.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P020.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P021.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P022.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P023.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P024.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P025.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P026.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P027.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P028.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P029.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P030.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P031.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P032.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P033.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P034.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P035.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P036.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P037.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P038.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P039.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P040.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P041.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P042.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P043.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P044.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P045.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P046.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P047.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P048.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P049.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P050.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P051.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P052.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P053.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P054.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P055.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P056.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P057.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P058.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P059.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P060.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P061.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P062.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P063.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P064.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P065.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P066.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P067.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P068.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P069.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P070.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P071.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P072.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P073.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P074.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P075.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P076.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P077.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P078.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P079.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P080.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P081.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P082.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P083.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P084.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P085.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P086.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P087.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P088.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P089.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P090.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P091.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P092.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P093.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P094.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P095.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P096.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P097.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P098.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P099.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P100.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P101.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P102.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P103.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P104.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P105.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P106.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P107.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P108.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P109.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P110.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P111.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P112.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P113.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P114.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P115.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P116.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P117.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P118.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P119.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P120.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P121.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P122.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P123.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P124.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P125.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P126.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P127.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P128.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P129.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P130.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P131.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P132.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P133.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P134.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P135.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P136.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P137.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P138.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P139.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P140.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P141.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P142.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P143.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P144.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P145.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P146.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P147.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P148.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P149.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P150.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P151.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P152.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P153.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P154.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P155.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P156.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P157.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P158.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P159.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P160.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P161.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P162.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P163.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P164.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P165.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P166.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P167.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P168.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P169.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P170.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P171.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P172.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P173.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P174.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P175.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P176.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P177.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P178.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P179.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P180.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P181.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P182.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P183.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P184.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P185.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P186.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P187.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P188.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P189.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P190.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P191.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P192.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P193.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P194.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P195.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P196.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P197.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P198.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P199.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P200.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P201.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P202.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P203.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P204.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P205.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P206.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P207.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P208.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P209.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P210.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P211.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P212.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P213.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P214.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P215.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P216.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P217.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P218.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P219.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P220.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P221.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P222.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P223.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P224.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P225.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P226.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P227.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P228.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P229.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P230.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P231.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P232.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P233.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P234.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P235.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P236.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P237.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P238.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P239.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P240.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P241.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P242.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P243.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P244.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P245.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P246.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P247.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P248.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P249.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P250.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P251.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P252.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P253.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P254.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P255.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P256.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P257.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P258.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P259.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P260.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P261.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P262.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P263.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P264.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P265.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P266.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P267.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P268.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P269.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P270.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P271.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P272.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P273.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P274.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P275.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P276.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P277.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P278.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P279.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P280.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P281.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P282.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P283.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P284.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P285.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P286.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P287.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P288.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P289.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P290.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P291.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P292.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P293.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P294.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P295.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P296.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P297.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P298.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P299.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P300.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P301.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P302.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P303.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P304.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P305.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P306.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P307.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P308.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P309.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P310.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P311.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P312.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P313.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P314.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P315.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P316.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P317.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P318.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P319.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P320.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P321.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P322.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P323.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P324.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P325.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P326.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P327.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P328.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P329.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P330.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P331.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P332.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P333.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P334.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P335.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P336.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P337.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P338.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P339.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P340.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P341.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P342.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P343.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P344.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P345.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P346.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P347.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P348.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P349.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P350.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P351.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P352.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P353.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P354.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P355.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P356.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P357.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P358.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P359.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P360.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P361.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P362.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P363.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P364.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P365.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P366.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P367.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P368.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P369.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P370.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P371.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P372.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P373.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P374.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P375.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P376.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P377.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P378.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P379.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P380.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P381.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P382.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P383.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P384.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P385.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P386.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P387.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P388.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P389.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P390.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P391.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P392.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P393.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P394.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P395.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P396.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P397.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P398.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P399.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P400.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P401.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P402.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P403.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P404.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P405.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P406.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P407.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P408.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P409.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P410.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P411.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P412.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P413.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P414.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P415.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P416.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P417.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P418.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P419.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P420.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P421.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P422.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P423.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P424.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P425.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P426.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P427.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P428.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P429.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P430.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P431.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P432.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P433.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P434.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P435.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P436.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P437.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P438.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P439.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P440.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P441.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P442.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P443.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P444.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P445.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P446.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P447.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P448.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P449.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P450.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P451.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P452.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P453.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P454.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P455.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P456.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P457.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P458.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P459.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P460.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P461.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P462.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P463.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P464.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P465.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P466.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P467.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P468.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P469.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P470.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P471.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P472.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P473.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P474.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P475.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P476.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P477.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P478.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P479.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P480.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P481.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P482.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P483.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P484.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P485.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P486.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P487.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P488.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P489.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P490.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="fonts\QCF_P491.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="sound\AlAfasy\001001.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
