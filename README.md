@@ -1,7 +1,7 @@
 ![Bismillah-Al-Rahman-Al-Rahim](https://quran-api.shkolaproroka.ru/content/Bismillah-Al-Rahman-Al-Rahim-Title.png "Bismillah-Al-Rahman-Al-Rahim")
 --------
 # Quran-API project
-This project are made to help for anothers to work with Quran. Tags: _#Quran#QuranAPI#Quran-API#Koran#KoranAPI#Koran-API#القرآن‎_
+This project was made to help others to work with Quran. Tags: _#Quran#QuranAPI#Quran-API#Koran#KoranAPI#Koran-API#القرآن‎_
 ###### Example of swagger you can see at: [https://quran-api.shkolaproroka.ru/swagger/index](https://quran-api.shkolaproroka.ru/swagger/index.html)
 
 ### Main functionality of Quran API
