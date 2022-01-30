@@ -2,16 +2,16 @@
 --------
 # Quran-API project
 This project was made to help others to work with Quran. Tags: _#Quran#QuranAPI#Quran-API#Koran#KoranAPI#Koran-API#القرآن‎_
-###### Example of swagger you can see at: [https://quran-api.shkolaproroka.ru/swagger/index](https://quran-api.shkolaproroka.ru/swagger/index.html)
+###### Example of swagger you can see at: [https://quran-api.nabi-school.education/swagger/index](https://quran-api.nabi-school.education/swagger/index.html)
 
 ### Main functionality of Quran API
 --------
 - Get metadata
-    - By Page https://quran-api.shkolaproroka.ru/data/page/1
-    - By Surah https://quran-api.shkolaproroka.ru/data/surah/1
-    - By Ayat of Surah https://quran-api.shkolaproroka.ru/data/surah/1/ayat/1
-- Get html page of Quran page with correct markup https://quran-api.shkolaproroka.ru/data/pagehtml/1
-- Get html pages splitted by ayat of Quran page with correct markup https://quran-api.shkolaproroka.ru/data/pagehtml/1/byayats
+    - By Page https://quran-api.nabi-school.education/data/page/1
+    - By Surah https://quran-api.nabi-school.education/data/surah/1
+    - By Ayat of Surah https://quran-api.nabi-school.education/data/surah/1/ayat/1
+- Get html page of Quran page with correct markup https://quran-api.nabi-school.education/data/pagehtml/1
+- Get html pages splitted by ayat of Quran page with correct markup https://quran-api.nabi-school.education/data/pagehtml/1/byayats
 
 ### How to lunch app
 --------
