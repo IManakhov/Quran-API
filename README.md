@@ -16,6 +16,3 @@ This project was made to help others to work with Quran. Tags: _#Quran#QuranAPI#
 ### How to lunch app
 --------
 This is ASP .NET Core application based on Web API. Database - MySQL. Dump you can found at `./DataBase/quran_api.zip`
-### Features that need to do
---------
-- [ ] Cache all pages and pages splitted by ayats to content page. Now it's generation on every request
