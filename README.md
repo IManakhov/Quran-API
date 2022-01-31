@@ -1,4 +1,4 @@
-![Bismillah-Al-Rahman-Al-Rahim](https://quran-api.shkolaproroka.ru/content/Bismillah-Al-Rahman-Al-Rahim-Title.png "Bismillah-Al-Rahman-Al-Rahim")
+![Bismillah-Al-Rahman-Al-Rahim](https://quran-api.nabi-school.education/content/Bismillah-Al-Rahman-Al-Rahim-Title.png "Bismillah-Al-Rahman-Al-Rahim")
 --------
 # Quran-API project
 This project was made to help others to work with Quran. Tags: _#Quran#QuranAPI#Quran-API#Koran#KoranAPI#Koran-API#القرآن‎_
