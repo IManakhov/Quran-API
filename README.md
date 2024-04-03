@@ -1,4 +1,4 @@
-![Bismillah-Al-Rahman-Al-Rahim](https://imanakhov.github.io/images/Bismillah.png "Bismillah-Al-Rahman-Al-Rahim")
+![Bismillahir Rahmanir Raheem](https://imanakhov.github.io/images/Bismillah.png "Bismillahir Rahmanir Raheem")
 --------
 # Quran-API project
 This project was made to help others to work with Quran. Tags: _#Quran#QuranAPI#Quran-API#Koran#KoranAPI#Koran-API#القرآن‎_
