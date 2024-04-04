@@ -1,6 +1,10 @@
-﻿namespace QuranApi
-{
-    public class docker_compose
-    {
-    }
-}
+﻿version: '3.4'
+
+services:
+  atelieranddry_api:
+    container_name: quran_api
+    ports:
+      - "5101:80"
+    build:
+      context: /.
+      dockerfile: Dockerfile
