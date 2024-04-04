@@ -6,5 +6,5 @@ services:
     ports:
       - "5101:80"
     build:
-      context: QuranApi/.
+      context: .
       dockerfile: Dockerfile
