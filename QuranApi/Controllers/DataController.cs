@@ -81,7 +81,7 @@ namespace QuranApi.Controllers
             var fonts = list.Select(x => x.font_file.Replace(".TTF","")).GroupBy(x => x).Select(x => x.Key);
             var fontStyle = fonts
                 .Select(x => "@font-face {font-family: " + x + "; " +
-                "src: url(\"https://quran-api.shkolaproroka.ru/fonts/" + x + ".ttf\") format(\"opentype\");}");
+                "src: url(\"https://imanakhov.github.io/fonts/" + x.ToLower() + ".ttf\") format(\"opentype\");}");
             var text_fonts = string.Join("", fontStyle);
             var classStyle = fonts.Select(x => ".font" + x + " { font-size:36px;font-family:" + x + ";color:#000;}").ToList();
             var templatePath = Path.Combine(_env.ContentRootPath, $"HtmlTemplate\\Madinah_Mushaf_Template\\index.html");
@@ -146,7 +146,7 @@ namespace QuranApi.Controllers
                 var fonts = list.Select(x => x.font_file.Replace(".TTF", "")).GroupBy(x => x).Select(x => x.Key);
                 var fontStyle = fonts
                     .Select(x => "@font-face {font-family: " + x + "; " +
-                    "src: url(\"https://quran-api.shkolaproroka.ru/fonts/" + x + ".ttf\") format(\"opentype\");}");
+                    "src: url(\"https://imanakhov.github.io/fonts/" + x.ToLower() + ".ttf\") format(\"opentype\");}");
                 var text_fonts = string.Join("", fontStyle);
                 var classStyle = fonts.Select(x => ".font" + x + " { font-size:36px;font-family:" + x + ";color:#000;}").ToList();
                 var templatePath = Path.Combine(_env.ContentRootPath, $"HtmlTemplate\\Madinah_Mushaf_Template\\index.html");

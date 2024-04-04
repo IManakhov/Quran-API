@@ -10,6 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove=".well-known\**" />
+    <Content Remove=".well-known\**" />
+    <EmbeddedResource Remove=".well-known\**" />
+    <None Remove=".well-known\**" />
+  </ItemGroup>
+
+  <ItemGroup>
 
 
     <None Remove="fonts\QCF_BSML.TTF" />
@@ -2448,17 +2455,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.35" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
-    <PackageReference Include="MySql.Data" Version="8.0.20" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="content\" />
-    <Folder Include=".well-known\" />
     <Folder Include="sound\" />
   </ItemGroup>
 

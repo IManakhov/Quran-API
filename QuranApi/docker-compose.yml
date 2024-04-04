@@ -1,0 +1,6 @@
+﻿namespace QuranApi
+{
+    public class docker_compose
+    {
+    }
+}
