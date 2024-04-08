@@ -85,20 +85,6 @@ namespace QuranApi
                 DefaultFileNames = new List<string> { "swagger/index.html" }
             });
 
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                Path.Combine(env.ContentRootPath, "Sound")),
-                RequestPath = "/sound"
-            });
-
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                Path.Combine(env.ContentRootPath, "Fonts")),
-                RequestPath = "/fonts"
-            });
-
             app.UseHttpsRedirection();
 
             app.UseRouting();
