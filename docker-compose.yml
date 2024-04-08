@@ -1,0 +1,18 @@
+﻿version: '3.8'
+
+services:
+  quranapi:
+    image: quranapi:latest
+    build:
+      context: ./QuranAPI
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - quranapi-net
+
+networks:
+  quranapi-net:
+    driver: bridge
