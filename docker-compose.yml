@@ -2,6 +2,7 @@
 
 services:
   quranapi:
+    container_name: quranapi
     image: quranapi:latest
     build:
       context: .

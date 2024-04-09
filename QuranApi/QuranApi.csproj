@@ -9,12 +9,7 @@
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <StartupObject></StartupObject>
   </PropertyGroup>
-
-
-  <ItemGroup>
-    <None Remove="HtmlTemplate\Madinah_Mushaf_Template\index.html" />
-  </ItemGroup>
-
+  
   <ItemGroup>
     <Content Include="HtmlTemplate\Madinah_Mushaf_Template\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

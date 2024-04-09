@@ -2,12 +2,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
-using System.IO;
 
 namespace QuranApi
 {
@@ -68,7 +66,6 @@ namespace QuranApi
                 context.Items["__CorsMiddlewareInvoked"] = true;
                 return next();
             });
-            app.UseHttpsRedirection();
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
@@ -84,8 +81,6 @@ namespace QuranApi
             {
                 DefaultFileNames = new List<string> { "swagger/index.html" }
             });
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 
