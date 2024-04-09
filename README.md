@@ -10,7 +10,7 @@ This project was made to help others to work with Quran. Tags: _#Quran#QuranAPI#
     - By Page https://quran-api.mistudio.dev/data/page/1
     - By Surah https://quran-api.mistudio.dev/data/surah/1
     - By Ayat of Surah https://quran-api.mistudio.dev/data/surah/1/ayat/1
-- Get html page of Quran page with correct markup https://quran-api.mistudio.dev/pagehtml/1, you can replace 1 to another page number from 1 to 604
+- Get html page of Quran page with correct markup https://quran-api.mistudio.dev/data/pagehtml/1, you can replace 1 to another page number from 1 to 604
 - Get html pages splitted by ayat of Quran page with correct markup https://quran-api.mistudio.dev/data/pagehtml/1/byayats
 
 ### How to lunch app
