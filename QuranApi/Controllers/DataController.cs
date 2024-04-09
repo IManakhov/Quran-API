@@ -84,7 +84,7 @@ namespace QuranApi.Controllers
                 "src: url(\"https://imanakhov.github.io/fonts/" + x.ToLower() + ".ttf\") format(\"opentype\");}");
             var text_fonts = string.Join("", fontStyle);
             var classStyle = fonts.Select(x => ".font" + x + " { font-size:36px;font-family:" + x + ";color:#000;}").ToList();
-            var templatePath = Path.Combine(_env.WebRootPath, $"HtmlTemplate","Madinah_Mushaf_Template","index.html");
+            var templatePath = Path.Combine($"HtmlTemplate","Madinah_Mushaf_Template","index.html");
             var fileContent = System.IO.File.ReadAllText(templatePath);
             var text_content = new StringBuilder();
             text_content.Append("<div class=\"page\">");
@@ -149,7 +149,7 @@ namespace QuranApi.Controllers
                     "src: url(\"https://imanakhov.github.io/fonts/" + x.ToLower() + ".ttf\") format(\"opentype\");}");
                 var text_fonts = string.Join("", fontStyle);
                 var classStyle = fonts.Select(x => ".font" + x + " { font-size:36px;font-family:" + x + ";color:#000;}").ToList();
-                var templatePath = Path.Combine(_env.WebRootPath, $"HtmlTemplate", "Madinah_Mushaf_Template", "index.html");
+                var templatePath = Path.Combine($"HtmlTemplate", "Madinah_Mushaf_Template", "index.html");
                 var fileContent = System.IO.File.ReadAllText(templatePath);
                 var text_content = new StringBuilder();
                 text_content.Append("<div class=\"page\">");
