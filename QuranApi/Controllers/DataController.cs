@@ -75,59 +75,8 @@ namespace QuranApi.Controllers
         [Produces("text/html")] 
         public ContentResult PageHtml(int id)
         {
-            var list = Page(id);
-            var listPrev = id == 1 ? null : Page(id);
-
-            var fonts = list.Select(x => x.font_file.Replace(".TTF","")).GroupBy(x => x).Select(x => x.Key);
-            var fontStyle = fonts
-                .Select(x => "@font-face {font-family: " + x + "; " +
-                "src: url(\"https://imanakhov.github.io/fonts/" + x.ToLower() + ".ttf\") format(\"opentype\");}");
-            var text_fonts = string.Join("", fontStyle);
-            var classStyle = fonts.Select(x => ".font" + x + " { font-size:36px;font-family:" + x + ";color:#000;}").ToList();
-            var templatePath = Path.Combine($"HtmlTemplate","Madinah_Mushaf_Template","index.html");
-            var fileContent = System.IO.File.ReadAllText(templatePath);
-            var text_content = new StringBuilder();
-            text_content.Append("<div class=\"page\">");
-            int line = 0;
-            int lastSura = listPrev != null ? listPrev.LastOrDefault().sura_number : 0;
-            var ayats = new List<string>();
-            foreach (var iter in list) 
-            {
-                if (lastSura != iter.sura_number) 
-                {
-                    var sura = Surah(iter.sura_number);
-                    text_content.Append("<div class=\"line sura-name\">");
-                    text_content.Append("<span>" + sura.NameArabic + "</span>");
-                    text_content.Append("</div>");
-                }
-                if (iter.line_number != line) 
-                {
-                    if (line != 0)
-                        text_content.Append("</div>");
-                    text_content.Append("<div class=\"line\">");
-                    line = iter.line_number;
-                }
-
-                text_content.Append("<span class=\"font" + iter.font_file_name +
-                        " ayat-text" + 
-                        " sura" + iter.sura_number +
-                        " ayat" + iter.sura_number + "_"+ iter.ayah_number + "\">" + iter.charStr + "</span>");
-                ayats.Add("ayat" + iter.sura_number + "_" + iter.ayah_number);
-                lastSura = iter.sura_number;
-            }
-            foreach (var ayat in ayats.Distinct()) {
-                classStyle.Add("." + ayat + " {}");
-            }
-            classStyle.Add(".line { text-align: center; }");
-            classStyle.Add(".ayat-text { }");
-            classStyle.Add(".ayat-text:hover { color: #08e8de; }");
-            var text_class = string.Join("", classStyle);
-            text_content.Append("</div>");
-            text_content.Append("</div>");
-            return Content(fileContent
-                .Replace("{{text_class}}", text_class)
-                .Replace("{{text_fonts}}", text_fonts)
-                .Replace("{{text_content}}", text_content.ToString()), "text/html", Encoding.UTF8);
+            var fileContent = System.IO.File.ReadAllText(Path.Combine("pages", $"{id}.html"));
+            return Content(fileContent, "text/html", Encoding.UTF8);
         }
 
         [HttpGet]
@@ -212,6 +161,77 @@ namespace QuranApi.Controllers
             }
             
             return result;
+        }
+
+        [HttpGet]
+        [Route("pagehtml/tofile")]
+        public string PageHtmlToFile()
+        {
+            PageHtmlToFileInternal();
+            return "OK!";
+        }
+        private void PageHtmlToFileInternal() 
+        { 
+            var id = 1;
+            while (id <= 604)
+            {
+                var list = Page(id);
+                var listPrev = id == 1 ? null : Page(id);
+
+                var fonts = list.Select(x => x.font_file.Replace(".TTF", "")).GroupBy(x => x).Select(x => x.Key);
+                var fontStyle = fonts
+                    .Select(x => "@font-face {font-family: " + x + "; " +
+                    "src: url(\"https://imanakhov.github.io/fonts/" + x.ToLower() + ".ttf\") format(\"opentype\");}");
+                var text_fonts = string.Join("", fontStyle);
+                var classStyle = fonts.Select(x => ".font" + x + " { font-size:36px;font-family:" + x + ";color:#000;}").ToList();
+                var templatePath = Path.Combine($"HtmlTemplate", "Madinah_Mushaf_Template", "index.html");
+                var fileContent = System.IO.File.ReadAllText(templatePath);
+                var text_content = new StringBuilder();
+                text_content.Append("<div class=\"page\">");
+                int line = 0;
+                int lastSura = listPrev != null ? listPrev.LastOrDefault().sura_number : 0;
+                var ayats = new List<string>();
+                foreach (var iter in list)
+                {
+                    if (lastSura != iter.sura_number)
+                    {
+                        var sura = Surah(iter.sura_number);
+                        text_content.Append("<div class=\"line sura-name\">");
+                        text_content.Append("<span>" + sura.NameArabic + "</span>");
+                        text_content.Append("</div>");
+                    }
+                    if (iter.line_number != line)
+                    {
+                        if (line != 0)
+                            text_content.Append("</div>");
+                        text_content.Append("<div class=\"line\">");
+                        line = iter.line_number;
+                    }
+
+                    text_content.Append("<span class=\"font" + iter.font_file_name +
+                            " ayat-text" +
+                            " sura" + iter.sura_number +
+                            " ayat" + iter.sura_number + "_" + iter.ayah_number + "\">" + iter.charStr + "</span>");
+                    ayats.Add("ayat" + iter.sura_number + "_" + iter.ayah_number);
+                    lastSura = iter.sura_number;
+                }
+                foreach (var ayat in ayats.Distinct())
+                {
+                    classStyle.Add("." + ayat + " {}");
+                }
+                classStyle.Add(".line { text-align: center; }");
+                classStyle.Add(".ayat-text { }");
+                classStyle.Add(".ayat-text:hover { color: #08e8de; }");
+                var text_class = string.Join("", classStyle);
+                text_content.Append("</div>");
+                text_content.Append("</div>");
+                System.IO.File.WriteAllText(Path.Combine("pages", $"{id}.html"), fileContent
+                    .Replace("{{text_class}}", text_class)
+                    .Replace("{{text_fonts}}", text_fonts)
+                    .Replace("{{text_content}}", text_content.ToString()));
+                id++;
+            }
+            return string.Empty;
         }
 
         [HttpGet]
