@@ -170,6 +170,7 @@ namespace QuranApi.Controllers
             PageHtmlToFileInternal();
             return "OK!";
         }
+
         private void PageHtmlToFileInternal() 
         { 
             var id = 1;
@@ -231,7 +232,6 @@ namespace QuranApi.Controllers
                     .Replace("{{text_content}}", text_content.ToString()));
                 id++;
             }
-            return string.Empty;
         }
 
         [HttpGet]
