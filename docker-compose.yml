@@ -8,9 +8,10 @@ services:
       context: ./quran-api-nest
       dockerfile: Dockerfile
     ports:
-      - "5201:80"
+      - "5201:3000"
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - NODE_ENV=production
+      - PORT=3000
     networks:
       - quranapi-net
 
