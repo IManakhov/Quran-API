@@ -1,11 +1,11 @@
-﻿version: '3.8'
+version: '3.8'
 
 services:
   quranapi:
     container_name: quranapi
     image: quranapi:latest
     build:
-      context: .
+      context: ./quran-api-nest
       dockerfile: Dockerfile
     ports:
       - "5201:80"
