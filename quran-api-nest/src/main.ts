@@ -3,7 +3,6 @@ import 'dotenv/config';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import type { NextFunction, Request, Response } from 'express';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -15,11 +14,6 @@ async function bootstrap() {
     allowedHeaders: '*',
   });
 
-  app.use((req: Request, res: Response, next: NextFunction) => {
-    if (req.path === '/' && swaggerPath) return res.redirect(`/${swaggerPath}`);
-    next();
-  });
-
   const config = new DocumentBuilder()
     .setTitle('Quran Read API')
     .setDescription('Quran read API for UI (NestJS port).')
@@ -28,6 +22,9 @@ async function bootstrap() {
 
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup(swaggerPath, app, document);
+  if (swaggerPath !== '') {
+    SwaggerModule.setup('', app, document);
+  }
 
   const port = Number(process.env.PORT ?? 3000);
   await app.listen(port, '0.0.0.0');
