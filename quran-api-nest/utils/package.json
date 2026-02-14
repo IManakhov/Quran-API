@@ -1,0 +1,23 @@
+{
+  "name": "maktabnabi-fonts-scripts",
+  "private": true,
+  "description": "Скрипты для загрузки и конвертации шрифтов Корана",
+  "scripts": {
+    "download-fonts": "node download-quran-fonts.js",
+    "rename-fonts": "node rename-quran-fonts.js",
+    "convert-to-ttf": "node convert-woff2-to-ttf.js",
+    "delete-woff2": "node delete-woff2-fonts.js",
+    "docx-to-json": "node docx-to-json.js",
+    "docx-to-json:debug": "node --inspect-brk docx-to-json.js",
+    "docx-to-json:test": "node docx-to-json.js --test",
+    "json-to-html": "node json-to-html.js",
+    "internet-to-html": "node internet-to-html.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0",
+    "wawoff2": "^2.0.1",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "sqlite3": "^5.1.6"
+  }
+}

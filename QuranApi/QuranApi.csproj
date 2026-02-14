@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>
     <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
 
@@ -2436,16 +2436,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BouncyCastle.Cryptography" Version="2.3.0" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.4.0" />
     <PackageReference Include="Dapper" Version="2.1.35" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
-    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="pagesV2_colored\" />
+    <Folder Include="pagesV2_colored_by_ayats\" />
+    <Folder Include="pagesV2_colored_json\" />
     <Folder Include="pages_by_ayats\" />
   </ItemGroup>
 

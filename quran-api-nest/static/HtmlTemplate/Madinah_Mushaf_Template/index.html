@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="">
+<div class="quran-container">
+<!-- Begin shared CSS values -->
+<style id="classes" type="text/css" >
+    .quran-container {
+        text-align: right;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .ayat-text {
+        
+    }
+    .sura-name {
+        text-align: center;
+    }
+    .line {
+        height: 60px;
+    }
+{{text_class}}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts1" type="text/css" >
+{{text_fonts}}
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+{{text_content}}
+<!-- End text definitions -->
+</div>
+</body>
+</html>

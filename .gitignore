@@ -7,3 +7,7 @@
 /.vs/QuranApi/DesignTimeBuild
 /.vs/QuranApi/FileContentIndex
 /.vs
+quran-api-nest/dist/
+quran-api-nest/node_modules/
+quran-api-nest/utils/node_modules/
+*.env

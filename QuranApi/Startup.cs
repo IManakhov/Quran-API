@@ -24,6 +24,14 @@ namespace QuranApi
         {
             services.AddControllers();
 
+            // Add API versioning
+            services.AddApiVersioning(options =>
+            {
+                options.ReportApiVersions = true;
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
+            }).AddMvc();
+
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
@@ -50,7 +58,6 @@ namespace QuranApi
                  .AllowAnyMethod()
                  .AllowAnyHeader());
             });
-            services.AddRouting(r => r.SuppressCheckForUnhandledSecurityMetadata = true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,13 +67,6 @@ namespace QuranApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseCors("AllowAll");
-            app.Use((context, next) =>
-            {
-                context.Items["__CorsMiddlewareInvoked"] = true;
-                return next();
-            });
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
@@ -89,14 +89,15 @@ namespace QuranApi
 
             app.UseRouting();
 
+            // CORS must be between UseRouting and UseEndpoints
+            app.UseCors("AllowAll");
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-            
-            app.UseDeveloperExceptionPage();
 
         }
     }

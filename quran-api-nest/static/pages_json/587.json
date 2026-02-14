@@ -1,0 +1,1010 @@
+[
+  {
+    "line": 1,
+    "position": 1,
+    "index": 1,
+    "symbol": "surah_name",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 2,
+    "position": 1,
+    "index": 2,
+    "symbol": "basmallah",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 1,
+    "index": 3,
+    "symbol": "ﱁ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 2,
+    "index": 4,
+    "symbol": " ﱂ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 3,
+    "index": 5,
+    "symbol": " ﱃ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 4,
+    "index": 6,
+    "symbol": " ﱄ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 5,
+    "index": 7,
+    "symbol": " ﱅ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 6,
+    "index": 8,
+    "symbol": " ﱆ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 7,
+    "index": 9,
+    "symbol": " ﱇ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 8,
+    "index": 10,
+    "symbol": " ﱈ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 9,
+    "index": 11,
+    "symbol": " ﱉ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 3,
+    "position": 10,
+    "index": 12,
+    "symbol": " ﱊ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 1,
+    "index": 13,
+    "symbol": "ﱋ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 2,
+    "index": 14,
+    "symbol": " ﱌ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 3,
+    "index": 15,
+    "symbol": " ﱍ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 4,
+    "index": 16,
+    "symbol": " ﱎ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 5,
+    "index": 17,
+    "symbol": " ﱏ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 6,
+    "index": 18,
+    "symbol": " ﱐ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 7,
+    "index": 19,
+    "symbol": " ﱑ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 8,
+    "index": 20,
+    "symbol": " ﱒ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 9,
+    "index": 21,
+    "symbol": " ﱓ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 4,
+    "position": 10,
+    "index": 22,
+    "symbol": " ﱔ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 1,
+    "index": 23,
+    "symbol": "ﱕ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 2,
+    "index": 24,
+    "symbol": " ﱖ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 3,
+    "index": 25,
+    "symbol": " ﱗ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 4,
+    "index": 26,
+    "symbol": " ﱘ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 5,
+    "index": 27,
+    "symbol": " ﱙ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 6,
+    "index": 28,
+    "symbol": " ﱚ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 7,
+    "index": 29,
+    "symbol": " ﱛ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 8,
+    "index": 30,
+    "symbol": " ﱜ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 9,
+    "index": 31,
+    "symbol": " ﱝ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 5,
+    "position": 10,
+    "index": 32,
+    "symbol": " ﱞ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 1,
+    "index": 33,
+    "symbol": "ﱟ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 2,
+    "index": 34,
+    "symbol": " ﱠ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 3,
+    "index": 35,
+    "symbol": " ﱡ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 4,
+    "index": 36,
+    "symbol": " ﱢ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 5,
+    "index": 37,
+    "symbol": " ﱣ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 6,
+    "index": 38,
+    "symbol": " ﱤ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 7,
+    "index": 39,
+    "symbol": " ﱥ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 8,
+    "index": 40,
+    "symbol": " ﱦ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 9,
+    "index": 41,
+    "symbol": " ﱧ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 10,
+    "index": 42,
+    "symbol": " ﱨ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 6,
+    "position": 11,
+    "index": 43,
+    "symbol": " ﱩ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 1,
+    "index": 44,
+    "symbol": "ﱪ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 2,
+    "index": 45,
+    "symbol": " ﱫ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 3,
+    "index": 46,
+    "symbol": " ﱬ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 4,
+    "index": 47,
+    "symbol": " ﱭ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 5,
+    "index": 48,
+    "symbol": " ﱮ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 6,
+    "index": 49,
+    "symbol": " ﱯ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 7,
+    "index": 50,
+    "symbol": " ﱰ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 8,
+    "index": 51,
+    "symbol": " ﱱ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 9,
+    "index": 52,
+    "symbol": " ﱲ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 7,
+    "position": 10,
+    "index": 53,
+    "symbol": " ﱳ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 1,
+    "index": 54,
+    "symbol": "ﱴ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 2,
+    "index": 55,
+    "symbol": " ﱵ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 3,
+    "index": 56,
+    "symbol": " ﱶ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 4,
+    "index": 57,
+    "symbol": " ﱷ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 5,
+    "index": 58,
+    "symbol": " ﱸ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 6,
+    "index": 59,
+    "symbol": " ﱹ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 7,
+    "index": 60,
+    "symbol": " ﱺ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 8,
+    "index": 61,
+    "symbol": " ﱻ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 9,
+    "index": 62,
+    "symbol": " ﱼ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 10,
+    "index": 63,
+    "symbol": " ﱽ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 11,
+    "index": 64,
+    "symbol": " ﱾ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 8,
+    "position": 12,
+    "index": 65,
+    "symbol": " ﱿ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 1,
+    "index": 66,
+    "symbol": "ﲀ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 2,
+    "index": 67,
+    "symbol": " ﲁ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 3,
+    "index": 68,
+    "symbol": " ﲂ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 4,
+    "index": 69,
+    "symbol": " ﲃ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 5,
+    "index": 70,
+    "symbol": " ﲄ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 6,
+    "index": 71,
+    "symbol": " ﲅ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 7,
+    "index": 72,
+    "symbol": " ﲆ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 8,
+    "index": 73,
+    "symbol": " ﲇ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 9,
+    "index": 74,
+    "symbol": " ﲈ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 10,
+    "index": 75,
+    "symbol": " ﲉ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 11,
+    "index": 76,
+    "symbol": " ﲊ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 9,
+    "position": 12,
+    "index": 77,
+    "symbol": " ﲋ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 1,
+    "index": 78,
+    "symbol": "ﲌ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 2,
+    "index": 79,
+    "symbol": " ﲍ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 3,
+    "index": 80,
+    "symbol": " ﲎ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 4,
+    "index": 81,
+    "symbol": " ﲏ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 5,
+    "index": 82,
+    "symbol": " ﲐ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 6,
+    "index": 83,
+    "symbol": " ﲑ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 7,
+    "index": 84,
+    "symbol": " ﲒ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 8,
+    "index": 85,
+    "symbol": " ﲓ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 9,
+    "index": 86,
+    "symbol": " ﲔ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 10,
+    "index": 87,
+    "symbol": " ﲕ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 11,
+    "index": 88,
+    "symbol": " ﲖ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 12,
+    "index": 89,
+    "symbol": " ﲗ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 10,
+    "position": 13,
+    "index": 90,
+    "symbol": " ﲘ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 1,
+    "index": 91,
+    "symbol": "ﲙ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 2,
+    "index": 92,
+    "symbol": " ﲚ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 3,
+    "index": 93,
+    "symbol": " ﲛ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 4,
+    "index": 94,
+    "symbol": " ﲜ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 5,
+    "index": 95,
+    "symbol": " ﲝ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 6,
+    "index": 96,
+    "symbol": " ﲞ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 7,
+    "index": 97,
+    "symbol": " ﲟ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 8,
+    "index": 98,
+    "symbol": "ﲠ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 9,
+    "index": 99,
+    "symbol": " ﲡ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 10,
+    "index": 100,
+    "symbol": " ﲢ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 11,
+    "index": 101,
+    "symbol": " ﲣ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 11,
+    "position": 12,
+    "index": 102,
+    "symbol": " ﲤ",
+    "surah": 82,
+    "ayat": 0
+  },
+  {
+    "line": 12,
+    "position": 1,
+    "index": 103,
+    "symbol": "surah_name",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 13,
+    "position": 1,
+    "index": 104,
+    "symbol": "basmallah",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 1,
+    "index": 105,
+    "symbol": "ﲥ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 2,
+    "index": 106,
+    "symbol": " ﲦ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 3,
+    "index": 107,
+    "symbol": " ﲧ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 4,
+    "index": 108,
+    "symbol": " ﲨ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 5,
+    "index": 109,
+    "symbol": " ﲩ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 6,
+    "index": 110,
+    "symbol": " ﲪ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 7,
+    "index": 111,
+    "symbol": " ﲫ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 8,
+    "index": 112,
+    "symbol": " ﲬ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 9,
+    "index": 113,
+    "symbol": " ﲭ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 14,
+    "position": 10,
+    "index": 114,
+    "symbol": " ﲮ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 1,
+    "index": 115,
+    "symbol": "ﲯ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 2,
+    "index": 116,
+    "symbol": " ﲰ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 3,
+    "index": 117,
+    "symbol": " ﲱ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 4,
+    "index": 118,
+    "symbol": " ﲲ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 5,
+    "index": 119,
+    "symbol": " ﲳ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 6,
+    "index": 120,
+    "symbol": " ﲴ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 7,
+    "index": 121,
+    "symbol": " ﲵ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 8,
+    "index": 122,
+    "symbol": " ﲶ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 9,
+    "index": 123,
+    "symbol": " ﲷ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 10,
+    "index": 124,
+    "symbol": " ﲸ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 11,
+    "index": 125,
+    "symbol": " ﲹ",
+    "surah": 83,
+    "ayat": 0
+  },
+  {
+    "line": 15,
+    "position": 12,
+    "index": 126,
+    "symbol": " ﲺ",
+    "surah": 83,
+    "ayat": 0
+  }
+]
