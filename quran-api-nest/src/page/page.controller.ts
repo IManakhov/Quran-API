@@ -12,6 +12,18 @@ import { PageId } from './decorators/page-id.decorator';
 export class PageController {
   constructor(private readonly data: DataService) {}
 
+  private async sendFile(res: Response, filePath: string, contentType: string) {
+    try {
+      const content = await fs.readFile(filePath, 'utf-8');
+      return res.type(contentType).send(content);
+    } catch (error: any) {
+      if (error?.code === 'ENOENT') {
+        return res.status(404).send(`File not found: ${filePath}`);
+      }
+      throw error;
+    }
+  }
+
   @Get(':id')
   @ApiQuery({ name: 'tafsirId', required: false })
   @ApiQuery({ name: 'translationId', required: false })
@@ -26,33 +38,29 @@ export class PageController {
 
   @Get('html/:id')
   async pageHtml(@PageId() id: number, @Res() res: Response) {
-    const pagesDir = process.env.PAGES_DIR ?? 'static/pages_v1';
+    const pagesDir = process.env.PAGES_V1_DIR ?? process.env.PAGES_DIR ?? 'static/pages_v1';
     const filePath = path.resolve(process.cwd(), pagesDir, `${id}.html`);
-    const html = await fs.readFile(filePath, 'utf-8');
-    return res.type('text/html; charset=utf-8').send(html);
+    return this.sendFile(res, filePath, 'text/html; charset=utf-8');
   }
 
   @Get('html/:id/v2/tajweed')
   async pageV2TajweedHtml(@PageId() id: number, @Res() res: Response) {
-    const pagesDir = process.env.PAGES_DIR ?? 'static/pages_v2_tajweed';
+    const pagesDir = process.env.PAGES_V2_TAJWEED_DIR ?? process.env.PAGES_DIR ?? 'static/pages_v2_tajweed';
     const filePath = path.resolve(process.cwd(), pagesDir, `${id}.html`);
-    const html = await fs.readFile(filePath, 'utf-8');
-    return res.type('text/html; charset=utf-8').send(html);
+    return this.sendFile(res, filePath, 'text/html; charset=utf-8');
   }
 
   @Get('html/:id/v2')
   async pageV2tml(@PageId() id: number, @Res() res: Response) {
-    const pagesDir = process.env.PAGES_DIR ?? 'static/pages_v2';
+    const pagesDir = process.env.PAGES_V2_DIR ?? process.env.PAGES_DIR ?? 'static/pages_v2';
     const filePath = path.resolve(process.cwd(), pagesDir, `${id}.html`);
-    const html = await fs.readFile(filePath, 'utf-8');
-    return res.type('text/html; charset=utf-8').send(html);
+    return this.sendFile(res, filePath, 'text/html; charset=utf-8');
   }
 
   @Get('html/byayats/:id/')
   async pageHtmlByAyats(@PageId() id: number, @Res() res: Response) {
-    const dir = process.env.PAGES_DIR ?? 'static/pages_by_ayats';
+    const dir = process.env.PAGES_BY_AYATS_DIR ?? 'static/pages_by_ayats';
     const filePath = path.resolve(process.cwd(), dir, `${id}.json`);
-    const json = await fs.readFile(filePath, 'utf-8');
-    return res.type('application/json; charset=utf-8').send(json);
+    return this.sendFile(res, filePath, 'application/json; charset=utf-8');
   }
 }
