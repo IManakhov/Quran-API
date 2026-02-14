@@ -7,6 +7,7 @@ import type { NextFunction, Request, Response } from 'express';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  const swaggerPath = (process.env.SWAGGER_PATH ?? 'swagger').replace(/^\/+|\/+$/g, '');
 
   app.enableCors({
     origin: true,
@@ -15,7 +16,7 @@ async function bootstrap() {
   });
 
   app.use((req: Request, res: Response, next: NextFunction) => {
-    if (req.path === '/') return res.redirect('/swagger');
+    if (req.path === '/' && swaggerPath) return res.redirect(`/${swaggerPath}`);
     next();
   });
 
@@ -26,7 +27,7 @@ async function bootstrap() {
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('swagger', app, document);
+  SwaggerModule.setup(swaggerPath, app, document);
 
   const port = Number(process.env.PORT ?? 3000);
   await app.listen(port, '0.0.0.0');
