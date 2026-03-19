@@ -7,11 +7,12 @@ services:
     build:
       context: ./quran-api-nest
       dockerfile: Dockerfile
+    env_file:
+      - ./quran-api-nest/.env
     ports:
       - "5201:3000"
     environment:
       - NODE_ENV=production
-      - PORT=3000
     networks:
       - quranapi-net
 
